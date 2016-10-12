@@ -15,6 +15,9 @@ custom:
       - name:  default
         title: Default Category
 
+      - name:  vue
+        title: vue
+
       - name:  another
         title: Another Category
 
