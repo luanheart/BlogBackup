@@ -9,23 +9,23 @@ desc: ╮(╯▽╰)╭
 
 custom:
     category:
-        default: Default Category
-        another: Another Category
-        vue: Vue Category
-        luan: Luan Category
+        default: default
+        another: another
+        vue: vue
+        luan: luan
     categories:
       - name:  default
         title: 默认
+
+      - name:  another
+        title: 其他
 
       - name:  vue
         title: Vue笔记
 
       - name:  luan
         title: luan
-
-      - name:  another
-        title: 其他
-
+        
     scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
