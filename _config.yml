@@ -11,12 +11,17 @@ custom:
     category:
         default: Default Category
         another: Another Category
+        vue: Vue Category
+        luan: Luan Category
     categories:
       - name:  default
         title: Default Category
 
       - name:  vue
         title: vue
+
+      - name:  luan
+        title: Luan Category
 
       - name:  another
         title: Another Category
