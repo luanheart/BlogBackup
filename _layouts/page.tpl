@@ -34,13 +34,15 @@
 		</ul>
 	</nav>
 	
+	<!--
 	<form action="/search/" class="block block-search">
 		<h3>Search</h3>
 		<p><input type="search" name="q" placeholder="Search" /></p>
 	</form>
+	-->
 	
 	<div class="block block-about">
-		<h3>About</h3>
+		<h3>我</h3>
 		<figure>
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
@@ -55,11 +57,13 @@
 	</div>
 	-->
 	
+	<!--
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
 		<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 	</div>
 	{% endif %}
+	-->
 	
 	<!--
 	<div class="block block-thank">
