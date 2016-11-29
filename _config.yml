@@ -15,22 +15,22 @@ custom:
         luan: Luan Category
     categories:
       - name:  default
-        title: Default Category
+        title: 默认
 
       - name:  vue
-        title: vue
+        title: Vue笔记
 
       - name:  luan
-        title: Luan Category
+        title: luan
 
       - name:  another
-        title: Another Category
+        title: 其他
 
     scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
     author:
-        name: Your Name
+        name: luanheart
         email: luanheartx@gmail.com
         disqus: luan             # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID

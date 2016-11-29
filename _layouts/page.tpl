@@ -20,7 +20,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012</p>
+		<p>&copy; Since 1995</p>
 	</footer>
 </div>
 
@@ -45,13 +45,15 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Write something about yourself.</p>
+		<p>三十年众生牛马，六十年诸佛龙象</p>
 	</div>
 	
+	<!--
 	<div class="block block-license">
 		<h3>Copyright</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
 	</div>
+	-->
 	
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
@@ -59,6 +61,7 @@
 	</div>
 	{% endif %}
 	
+	<!--
 	<div class="block block-thank">
 		<h3>Powered by</h3>
 		<p>
@@ -72,6 +75,7 @@
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
 		</p>
 	</div>
+	-->
 </aside>
 
 <script src="http://elfjs.qiniudn.com/code/elf-0.5.0.min.js"></script>
