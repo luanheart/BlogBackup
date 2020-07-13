@@ -3,3 +3,5 @@
 
 # 文档
 - [hexo中文文档](https://hexo.io/zh-cn/docs/)
+
+hexo g -d
